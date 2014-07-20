@@ -140,8 +140,8 @@ static UIColor *colorFromRGB(int colorR, int colorG, int colorB) {
 
     if (enabled) {
         arg1 = nil;
-        arg2 = foregroundColor;
-        arg3 = backgroundColor;
+        arg2 = backgroundColor;
+        arg3 = foregroundColor;
         return %orig(arg1,arg2,arg3);
     }
     return %orig;
