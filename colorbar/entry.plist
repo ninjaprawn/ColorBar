@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = ColorBar;
+	cell = PSLinkCell;
+	detail = ColorBarListController;
+	icon = ColorBar.png;
+	isController = 1;
+	label = ColorBar;
+    };
+}
